@@ -1,5 +1,17 @@
 /*
+
+https://depthsecurity.com/blog/exploitation-xml-external-entity-xxe-injection
+
 apt-get install php-xml
+
+post /xxe.php
+
+<creds>
+    <user>EdAAA</user>
+    <pass>mypass</pass>
+</creds>
+
+
 */
 
 <?php 
